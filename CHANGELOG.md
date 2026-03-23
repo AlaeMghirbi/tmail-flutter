@@ -1,3 +1,9 @@
+## [0.26.5] - 2026-03-23
+### Fixed
+- #4394 Preview for plain text file without format bytes
+- #4384 Page not found when reload Label page
+- #4368 Cannot load more because the wrong condition in Email/query + get 
+
 ## [0.26.1] - 2026-03-10
 ### Fixed
 - Source code be totally minified by dart2js: concrete `toString` to every exception 
