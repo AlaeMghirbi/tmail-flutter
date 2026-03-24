@@ -1,3 +1,7 @@
+## [0.26.6] - 2026-03-24
+### Fixed
+- Download unknown name attachment
+
 ## [0.26.5] - 2026-03-23
 ### Fixed
 - #4394 Preview for plain text file without format bytes
