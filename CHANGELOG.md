@@ -1,3 +1,29 @@
+## [0.27.2] - 2026-04-02
+
+### Added
+- TF-4392 [Team Mailbox] Hide `Recover deleted messages` and `Archive message` actions in team mailbox
+- TF-4392 [Team Mailbox] Full trash management: delete emails, empty trash, move emails to trash from list and detail views
+- TF-4392 [Team Mailbox] Folder management according to user rights: create subfolder, rename folder, delete folder
+- TF-4392 [Team Mailbox] Edit emails in Drafts/Template folder as new in composer; auto-save drafts when editing
+- ADR-71 Collapse Thread view
+- TF-4370 Add description field to Label creation modal
+- TF-4383 Handle read-only labels
+- Label: Add "Label as" context menu for email items in list, thread, and search views
+- AI Scribe mobile: sparkle button in app bar, bottomsheet UI, inline button on tablet with correct positioning
+- AI Scribe: Fetch prompts from `scribePromptUrl` via LinagoraEcosystem; manage prompts as messages lifecycle
+- AI Scribe: Add Improve button, quick action toolbar on suggestion, toast when copying suggestion
+- AI Scribe: Display AI Scribe toggle in mobile preferences
+
+### Fixed
+- TF-4385 Fix spam banner to show only once per day
+- TF-4391 Fix last menu item inaccessible due to system navigation bar overlap
+- TF-4404 Fix missing subject when performing `Mail to attendees` action in event email
+- Translate Scribe for vi, ru
+
+## [0.26.8] - 2026-03-26
+### Fixed
+- Fix translation for Label (French)
+
 ## [0.26.6] - 2026-03-24
 ### Fixed
 - Download unknown name attachment
